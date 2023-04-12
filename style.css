@@ -1,0 +1,182 @@
+.header {
+    background: black;
+}
+.links {
+    display: flex;
+    color: #c78c02;
+    flex-direction: column;
+    text-align: center;
+    font-size: 20px;
+}
+.links a{
+padding: 10px;
+}
+.site-logo{
+width: 100px;
+}
+.logo {
+    background: #c78c02;
+}
+.search-box {
+    display: flex;
+    justify-content: center;
+}
+.background {
+    background-image: url(assets/Three\ star\ media.jpg);
+    padding: 25px;
+}
+.backside {
+    background: #00000061;
+    width: 80%;
+    margin: auto;
+    color: white;
+    padding: 20px;
+}
+.btn {
+    width: 240px;
+    background: #c78c02;
+    color: black;
+    padding: 20px;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 30px;
+}
+.about-us {
+    background: #ffe5ad;
+}
+.button {
+    background: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 20px;
+}
+.our-vision{
+    background: url("/images/vision.jpg");
+    color: white;
+}
+.vision-btn {
+    width: 200px;
+    background: #242945;
+    text-align: center;
+    padding: 20px;
+}
+.team-info {
+    padding: 10px;
+}
+.team {
+    background: #ffe5ad;
+}
+.container {
+    max-width: 1200px;
+    margin: auto;
+}
+.contect-us form {
+    display: flex;
+    flex-direction: column;
+}
+.about-us {
+    padding: 15px;
+}
+table, th, td {
+    padding: 15px;
+    text-transform: capitalize;
+}
+table, th, td {
+    border: 1px solid #222;
+    padding: 10px;
+}
+table, th, td {
+    padding: 15px;
+    text-transform: capitalize;
+}
+th {
+    background: #ffe6ac;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+table {
+    width: 100%;
+}
+footer {
+    background: #222;
+    padding: 20px;
+    color: #c78c06;
+}
+footer .container {
+    display: grid;
+    gap: 20px;
+}
+footer p {
+    margin: 0px;
+}
+body {
+    padding: 0;
+    margin: 0;
+}
+footer a {
+    text-decoration: underline;
+    color: #c78c06;
+}
+@media only screen and (min-width: 768px) {
+    .width-50 {
+        width: 50%;
+    }
+    .flex {
+        display: flex;
+    }
+    .team {
+        display: flex;
+        background: #ffe5ad;
+        width: 83%;
+        margin: auto;
+    }
+    .team div {
+        width: 50%;
+    }
+    .our-services {
+        display: flex;
+        padding: 10px 7%;
+    }
+    .our-vision {
+        background-image: url(assets/Our\ vision.jpg);
+        padding: 20px 8%;
+    }
+    .services {
+        background: #ffe5ad;
+        margin: 10px;
+    }
+    .services h3,   .services p,   .services div {
+        margin: 10px;
+    }
+    h3 {
+        font-size: 34px;
+    }
+    .backside h1 {
+        font-size: 95px;
+    }
+    .about-us div {
+        width:  100%;
+    }
+    .about-us {
+        display: flex;
+        padding: 15px 7%;
+    }
+    .header {
+        background: black;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 14px 12%;
+    }
+    .links {
+        display: flex;
+        flex-direction: row;
+
+    }
+    h2 {
+        font-size: 40px;
+    }
+}
